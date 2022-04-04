@@ -1,0 +1,20 @@
+body{
+    background-color: #1d1d1d;
+}
+
+header{
+    height: 80vh;
+    background-image: linear-gradient(
+        to right bottom,
+        rgba(211, 26, 81, 0.884),
+        rgba(111, 0, 237, 0.877)),
+        url(cycling.jpg);
+    background-size: cover;
+    background-position: top;
+    clip-path: polygon(100% 0, 100% 30%, 81% 45%, 0 30%, 0 0);
+}
+
+header h1{
+    color: white;
+    font-size: 70px;
+}

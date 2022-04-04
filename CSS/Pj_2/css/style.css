@@ -1,0 +1,106 @@
+*{
+    padding: 0;
+    margin: 0;
+    outline: 0;
+}
+
+body{
+    background-color: #d5d5d5;
+    height: 100vh;
+    font-family:'Roboto', sans-serif;
+}
+
+main{
+    /* display: flex; */
+    /* flex-direction: row; */
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    poaition: relative;
+    height: 100%;
+}
+
+.flex{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-top{
+    position: absolute;
+    height: 500px;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.mockup{
+    height: 200px;
+}
+
+.form{
+    width: 100%;
+}
+
+.flex-column{
+    flex-direction: column;
+}
+
+.form-section{
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-top: 50px;
+    width: 75%;             
+}
+.form-section{
+    font-size: 40px;
+    margin: 25px 0;
+    color: #343333;
+    text-transform: capitalize;
+}
+
+input{
+    font-size: 13px;
+    padding: 10px 30px;
+    border-radius: 8px;
+    border: 1px solid #a7a7a7;
+    margin-bottom: 15px;
+    width: 100%;
+    margin: 0 6px 10px 6px;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.btn{
+    width: 100%;
+    padding: 10px 0px;
+    font-size: 20px;
+    color: #fff;
+    background-color: #f59e2e;
+    border: none;
+    outline: none;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.btn{
+    transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
+}
+
+.btn:hover{
+    box-shadow: 0 0 30px 30px #1f1f1f inset;
+}
+
+.btn-facebook{
+    background-color: #354c8d;
+}
+.btn-twitter{
+    background-color: #009fe9;
+}
+

@@ -1,0 +1,29 @@
+.container{
+    display: flex;
+    border: 2px solid black;
+    /* flex-direction: row;
+    height: 500px;
+    justify-content: center;
+    align-items: baseline;
+    width: 600px; */
+}
+
+.container div{
+    flex-grow: 0;
+}
+
+.container div:nth-child(2){
+    flex-grow: 3;
+}
+
+.one{
+    order: -2
+}
+
+.two{
+    order: -1
+}
+
+.container div:nth-child(6){
+    order: -3
+}
